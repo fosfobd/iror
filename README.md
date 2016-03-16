@@ -15,7 +15,7 @@ Demo url: http://softteknews.com/irordemo
 # Usage
 after adding the iror.css and jquery.iror.js to the head of your page
 
-***the markup:***
+**the markup:**
 ```html
 <div class="irorsection" id="sectionhello">
 	
@@ -40,7 +40,8 @@ with bootstrap:
 			
 ```
 
-***js***
+**js**
+
 default (fill-window behavior, focal point at center, no callback):
 ```javascript
 $("#sectionhello").iror({
