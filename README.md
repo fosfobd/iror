@@ -10,12 +10,12 @@ Additionally, iror allows you to set the following for each background image:
 - focal point (based on adam bradley's https://github.com/adamdbradley/focal-point)
 - callback on bg image load
 
-Demo url: http://softteknews.com/irordemo/
+Demo url: http://softteknews.com/irordemo
 
 # Usage
 after adding the iror.css and jquery.iror.js to the head of your page
 
-the markup:
+***the markup:***
 ```html
 <div class="irorsection" id="sectionhello">
 	
@@ -40,6 +40,7 @@ with bootstrap:
 			
 ```
 
+***js***
 default (fill-window behavior, focal point at center, no callback):
 ```javascript
 $("#sectionhello").iror({
