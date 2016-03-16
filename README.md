@@ -13,23 +13,54 @@ Additionally, iror allows you to set the following for each background image:
 Demo url: http://softteknews.com/irordemo/
 
 # Usage
+after adding the iror.css and jquery.iror.js to the head of your page
 
+the markup:
+```html
+<div class="irorsection" id="sectionhello">
+	
+	yourcontent...
+	
+</div>
+```
+
+with bootstrap:
+```html
+<div class="irorsection" id="sectionhello">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+			
+				yourcontent...
+			
+			</div>
+		</div>
+	</div>
+</div>
+			
+```
 
 default (fill-window behavior, focal point at center, no callback):
-`$("#sectionhello").iror({
-					image_src : "img/bring_the_pain_by_mattahan.jpg"
-				});`
+```javascript
+$("#sectionhello").iror({
+	image_src : "img/bghello.jpg"
+});
+```
 
 fill-content behavior (focal point at center, no callback):
-`$("#sectioncontent").iror({
-					image_src : "img/the_twister_by_mattahan.jpg",
-					behavior: "fillcontent"
-				});`
+```javascript
+$("#sectioncontent").iror({
+	image_src : "img/bgcontent.jpg",
+	behavior: "fillcontent"
+});
+```
 
 set a focal point:
-`$("#sectionfocalleft").iror({
-					image_src : "img/betta_listen_by_mattahan.jpg",
-					focalpointx : "left-5",
-					focalpointy : "top-5"
-				});`
+```javascript
+$("#sectionfocalleft").iror({
+	image_src : "img/bgfocalleft.jpg",
+	focalpointx : "left-5",
+	focalpointy : "top-5"
+});
+```
 
